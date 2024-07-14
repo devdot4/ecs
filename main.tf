@@ -1,5 +1,5 @@
 module "ecs" {
-  source = "/Users/devdot4/Desktop/modules-repo/modules/ecs"
+  source = "github.com/devdot4/modules-repo?ref=main"
 
   region             = "us-east-1"
   cluster_name       = "my-cluster"
