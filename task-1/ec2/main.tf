@@ -1,7 +1,7 @@
 module "ec2_instance" {
   source = "git::https://github.com/devdot4/modules-repo.git//modules/ec2?ref=main"
 
-  region          = "us-east-1" # add region here
+  region          = " " # add region here
   ami_id          = "ami-12345678"
   instance_type   = "t2.micro"
   subnet_id       = "subnet-12345678"
