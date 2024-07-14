@@ -1,7 +1,9 @@
-module "ecs" {
+# this is ecs that will reference another repo
+
+```module "ecs" {
   source = "git::https://github.com/devdot4/modules-repo.git//modules/ecs?ref=main"
 
-  region             = "" #add region here
+  region             = "" # add region here
   cluster_name       = "my-cluster"
   task_family        = "my-task-family"
   task_cpu           = "256"
